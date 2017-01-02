@@ -21,4 +21,4 @@ Translate is a simple compiled cli utility for translating text using the Google
 
 Pre-compiled compiled downloads to come.
 
-For now, you will need to compile the binary in after pulling the code.
+For now, you will need to compile the binary using the Go CLI utility after cloning the repo.
