@@ -23,7 +23,7 @@ Usage:
   translate ["Lang Code:Text"] [flags]
 
 Flags:
-  -c, --codes   List of available Language Codes                   Lists some available language codes
+  -c, --codes   List of available Language Codes
 ```
 
 
