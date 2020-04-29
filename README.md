@@ -14,7 +14,7 @@ Translate is a simple compiled cli utility for translating text using the Google
 
 ## Usage
 
-```
+```sh
 
 # make sure your google credentials are set
 $ GOOGLE_APPLICATION_CREDENTIALS=/path/to/credential.json
