@@ -16,5 +16,5 @@ jobs:
         run: exit 1
 
       - name: run after
-        if: alway()
+        if: always()
         run: echo Hello World
