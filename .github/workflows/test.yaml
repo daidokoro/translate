@@ -1,0 +1,20 @@
+name: ghaction-testing
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+
+      - name: run fail
+        run: exit 1
+
+      - name: run after
+        if: alway()
+        run: echo Hello World
